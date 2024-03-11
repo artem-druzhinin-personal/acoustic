@@ -1,1 +1,10 @@
-Project
+db
+greybox_tmp
+incremental_db
+output_files
+simulation
+*.bak
+*.ppf
+*.qip
+*.qpf
+*.qws
