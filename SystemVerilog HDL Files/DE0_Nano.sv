@@ -135,7 +135,7 @@ always @(posedge AD9226_CLK)
 		if (delay < Fs / 2) 
 			delay <= delay + 1;
 		else 
-			if (Filter_1_bits > 15) begin
+			if (Filter_1_bits > 5) begin
 				start_cor_r <= 1;
 				delay <= 0;
 			end
